@@ -1,0 +1,18 @@
+// Official definition - Performs the specified action on each element of the array.
+// In my words - performs a the specific function you supply on every element in an array.
+
+
+
+// 1. As a method of an Array object  or Array.prototype.forEach(fn, [thisArg]);
+      
+      
+// 2. Creating or defining your own  - a basic polyfill for the forEach()
+
+function forEach (arr, fn ) {
+  for( var i=0; i < arr.length; i++ ) {
+   fn(arr[i]);
+  }
+}
+
+
+/* 8 out of 10 done */
