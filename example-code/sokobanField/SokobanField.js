@@ -42,3 +42,30 @@ Sokoban.prototype.place = function(where) {
 Sokoban.protype.remove = function() {
   this.fieldDiv.parentNode.removeChile(this.fieldDiv);
 };
+
+Sokoban.prototype.move = function(direction) {
+  var playerSquare = this.squares[this.playerPos.y][this.playerPos.x],
+  targetPos = this.playerPos.add(direction),
+  targetSquare = this.squares[targetPos.y][targetPos.x];
+  
+  // First see if the player can push a boulder...
+  if(targetSquare.content == "boulder") {
+    var pushPos = targetPos.add(direction),
+      pushSquare = this.squares[pushPos.y][pushPos.x];
+      if(pushSquare.content == "empty") {
+        targetSquare.setContent("empty");
+        pushSquare.setContent("boulder");
+      }
+    else if (pushSquare.contetn == "exit") {
+      targetSquare.setContent("empty");
+      this.bouldersToGO--;
+    }
+  }
+  // then, try to move
+  if (targetSquare.content == "empty") {
+    playerSquare.setContent("empty");
+    targetSquare.setContent("player");
+    this.playerPos = targetPos;
+}
+
+};
