@@ -1,0 +1,22 @@
+// a constructor function that creates a graphical field instance out of string of text that emulates a board.
+// learned a couple of things here. 1) new objects can be created without a var name it. new Square. 2) elements of the dom are objects and can be used an manipulated as such. ie. the img changes the src property when new Space is created. 3) Good practice with iteration and creating something graphical from a text string. 
+
+function SokobanField(level) {
+  this.amountBoldersToGo = level.boulders;
+  this.fieldDiv = dom("div");  // dom() is a function from eloquent js which creates a element obj
+  this.squares = [];
+  
+  for (var y = 0; y < level.length; y++) {
+  var line =  level.field[y], squareRow = [];
+   for(var x = 0; x < line.length; x++) {
+    var img = dom('img');
+    this.fieldDiv.appendChild(img);
+    squareRow.push(new Square(line.charAt(x), img));
+      if(line.charAt(x) === "@")
+      this.playerPosition = new Point(x, y);
+   }
+   this.fieldDiv.appendChild('BR');
+   this.squares.push(squareRow);
+  }
+
+}
