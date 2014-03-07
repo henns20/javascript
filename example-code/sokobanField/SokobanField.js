@@ -33,3 +33,13 @@ Sokoban.prototype.status = function() {
 Sokoban.prototype.won = function() {
   return this.bouldersToGo <= 0;
 };
+
+//places the filed or the board where the person wants in the dom
+Sokoban.prototype.place = function(where) {
+  where.appendChild(this.fieldDiv);
+};
+
+Sokoban.protype.remove = function() {
+  this.fieldDiv.parentNode.removeChile(this.fieldDiv);
+}
+};
