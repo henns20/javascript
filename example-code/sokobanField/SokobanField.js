@@ -41,5 +41,4 @@ Sokoban.prototype.place = function(where) {
 
 Sokoban.protype.remove = function() {
   this.fieldDiv.parentNode.removeChile(this.fieldDiv);
-}
 };
