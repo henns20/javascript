@@ -20,3 +20,16 @@ function SokobanField(level) {
   }
 
 }
+
+// adding methods to the constructor via the prototype
+
+// status gives back how many boulders to go there is and if 0 or less will give a message "you won"
+Sokoban.prototype.status = function() {
+  
+  return this.bouldersToGo + "boulder" + (this.bouldersToGO > 1 ? "'s" : "") + "to go!";
+
+};
+
+Sokoban.prototype.won = function() {
+  return this.bouldersToGo <= 0;
+};
