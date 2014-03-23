@@ -1,0 +1,18 @@
+Chapt 4. Error Handling
+
+1) Kevin Bacon grabs a sac and thows it on the car object next to it. Represents OOP programming - which is chapt 6
+2) KB looks at a program and shows that it is wrong - inside undefined words - PROGRAMMING MISTAKES - UNDEFINED VARIABLES - EXTENT OF ERROR HANDLING.
+3) KB -then looks at his watch. Watch jumps off of his wrist - and runs away. RUNTIME ERRORS
+4) bee with a slice of pizza - stings the watch BETWEEEN (USES SLICE METHOD); 
+5) Bee and watch start throwing and catching a the prescious - chinese budda guy in the background - field pops up with yellow flowers and 1 red one - EXCPETION HANDLING; THROW; TRY; CATCH; SPECIAL VALUES; LASTELEMENT FUNCTION 
+6) The watch mows the field - until the finish line - runs into a car with an E on it - stubs its watch toe looks at the field after the finish line and selects areas to clean up. red flowers float to sky. CLEANING UP EXCEPTIONS; FINALLY KEYWORD; ERROR OBJECTS; UNHANDLED EXCPETIONS; SELECTIVE EXCEPTION HANDLING;
+7) where they turn into scantrons - AUTOMATED TESTING 
+
+
+Chapt 5 Functional Programming
+
+1) Recluse walks from backhoe with a banana in his hand and Jumps up in the air - and hits the tiles of a vertical leap jumper - with a big 4 on the top. HIGH ORDER FUNCTIONS; FOREACH FUNCTION; 
+2)Recluse walks by a Magician - who is playing the board game operation and then pulls a guy with a part out of his hat; OPERATIONS INTERFACE; PARTIAL FUNCTION.
+3)He then walks futher down - to where a woman is handing out star maps - siting on a chair. MAP FUNCTION OR ARRAY METHOD - MAP(PROCESSPARAGRAPH,RECLUSEFILE.SPLIT("\N\N"))
+4)He takes a file and hits it with a banana - SPLIT METHOD ON RECULSE FILE -
+5) The pieces start going down a conveyor belt - guy in the background heads a ball and misses the goal - HEADER =0 
