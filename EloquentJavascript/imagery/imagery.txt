@@ -5,8 +5,9 @@ Chapt 4. Error Handling
 3) KB -then looks at his watch. Watch jumps off of his wrist - and runs away. RUNTIME ERRORS
 4) bee with a slice of pizza - stings the watch BETWEEEN (USES SLICE METHOD); 
 5) Bee and watch start throwing and catching a the prescious - chinese budda guy in the background - field pops up with yellow flowers and 1 red one - EXCPETION HANDLING; THROW; TRY; CATCH; SPECIAL VALUES; LASTELEMENT FUNCTION 
-6) The watch mows the field - until the finish line - runs into a car with an E on it - stubs its watch toe looks at the field after the finish line and selects areas to clean up. red flowers float to sky. CLEANING UP EXCEPTIONS; FINALLY KEYWORD; ERROR OBJECTS; UNHANDLED EXCPETIONS; SELECTIVE EXCEPTION HANDLING;
-7) where they turn into scantrons - AUTOMATED TESTING 
+6) The watch mows the field - until the finish line - runs into pile of e sacks (the ones KB was throwing) with an E on it - stubs its watch toe CLEANING UP EXCEPTIONS;  FINALLY KEYWORD; ERROR OBJECTS;
+7)Climbs on the sacks and sits looks at the field of flowers on the the other side of sacks - after the finish line and selects areas to clean up. red flowers. In the middle of the field i boy with blinde hair sits at his desk filling in a scantron.  UNHANDLED EXCPETIONS; SELECTIVE EXCEPTION HANDLING; AUTOMATED TESTING 
+
 
 
 Chapt 5 Functional Programming
