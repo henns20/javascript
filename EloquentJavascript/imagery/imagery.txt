@@ -16,3 +16,5 @@ Chapt 5 Functional Programming
 3)He then walks futher down - to where a woman is handing out star maps - siting on a chair. MAP FUNCTION OR ARRAY METHOD - MAP(PROCESSPARAGRAPH,RECLUSEFILE.SPLIT("\N\N"))
 4)He takes a file and hits it with a banana - SPLIT METHOD ON RECULSE FILE -
 5) The pieces start going down a conveyor belt - guy in the background heads a ball and misses the goal - HEADER =0 
+
+
