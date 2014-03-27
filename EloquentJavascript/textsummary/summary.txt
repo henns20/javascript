@@ -1,0 +1,53 @@
+Chapter. 3  Sata Structures: Objects and Arrays
+
+1. main point of chapter 3 - solving a program problem that invloves extracting data from text.
+2. Aunt Emily's cats problem - keep an archive of living and dead cats
+3. Write a plan  - broke into 2 parts - overall (all emails) and the processing of paragraphs
+
+Basic Data Structures 
+1. Properties - values within values - ie. text.length or text["length"]
+     - most value types are fixed 
+2. Object Values - value types where properties can be freely addeed, removed or changed - examples of how to do this using [] and . notation
+3. Object as Sets - a collection of values that in which no value occurs more than once
+4. delete - keyword can delete a value from an object for example - delete cat["Spot"]  cat.Spot // False
+5. Mutability - immutable = unchangeable - objects values are mutable
+6. Objects as collection: Arrays - normal array stuff 
+7. Methods  - toUpperCAse; join; pop; push 
+
+Solving thhe Problem of Aunt Emily's Cats
+1. array of strings (emails)
+2. Separating paragraph - spit()
+3. finding the relevant paragraphs - chartAt(0) === "b" &&   
+    - slice(0, 4) === "born"
+    - startsWith function 
+         - function startsWith(pattern, string) {
+            return string.slice(0, pattern.length)
+         }
+         
+4. Extracting Cat Names
+    - Find the colon in the paragraph indexOf  slice that plus 1
+    - Take the part after this colon
+    - Split this part into separate names by looking for the comma   - that part split(",")
+    
+5.The Full Algorithm
+  - takes the archive of emails - splits the email - by the /n to make paragraphs
+  - takes paragraphs - and processes the paragraphs - alot of cascading if and else if and fors 
+6. Cleaning up Code 
+     - taking those constructs and putting them into their own functin call ie. addtoSet and removeFromSet - handle paragrph
+     - * handle paragraph is inside of the findLivingCats() function bc it is dependant a var inside of the living cats
+7. Date Representation 
+     - new Date(2007, 2, 30, 8, 20, 30)  // march 30th 2007 8:20:30
+     -var today = new Date() // today.getTime()  today.getHours  today.getDay()
+     - comparing date objects  with <=
+8. Date Extraction
+ - chapt 8 has better date abstraction - * here they do it by using 
+ function extractDate(paragraph) {
+ function numberAt(start, length) {
+ return Number(paragraph.slice(start, start + length))
+ }
+ return new Date(numberAt(11, 4), ...}
+}
+ 
+    
+    
+
