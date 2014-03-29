@@ -1,4 +1,57 @@
-Chapter. 3  Sata Structures: Objects and Arrays
+Chapt.2 Functions 
+- function definition - and the anatomy
+- funcitons some points from the chapter - 1) to extend the vocab that we have avail 2)defiing our own words inside a story we are writing to increase our expressiveness 2) if nothing follows the return keyword - then it returns undefined
+
+Definition Order
+- dont worry about the order the functions are defined - the computer looks up all the functions definitions and stores the associated functions, before it starts executing the rest of the program.
+
+Local Variables
+- variables created inside the function - are considered local. 
+- global - variables can be accessed inside a function - unless you define a new variable inside the same name.
+
+Nested Scope
+-functions that are nested in other functions have access to any local variables above them on the stack/chain\
+- watch out for blocks that are not nested inside one another or just blocks in general - does not create a new environment
+
+The Stack
+- when a function is called - control is given to the body of that function.
+- when the body returns the code that called that function is resumed 
+- THUS when the body is running the computer must remember the context from which the function was called so that it knows wher to continue afterward. The place where this CONTEXT is stored is called the STACK
+- there is limited MEMORY for the stack and if it runs out of memory - with too mcuh recusion  ie - then it is said that you "blow the stack"
+- chicken or egg function example - 
+
+Function Values
+- everything in Javascript is a value including funcitons
+- NAMES of defined functions can be used as values.
+     -ex- var a = null; function b () {return "B";}; (a || b)();  // B
+- gives example of anonymous 
+
+Closure
+- function createFunction() { var local = 100; return function() {return local;};}
+-this creates a function that returns a local var that is not there anymore - when the returned function is called
+- bc of closure (related to "upwards Funarg problem") the local variable is able to be reached and will print out the local variable. 
+- a function that closes over some local variables is called a closure
+- make adder is used as an example 
+
+Optional Arguments
+- Javascript will still run a function without being supplied all the args - it will just use undefined as the value.
+- book just examples the concept with power(number, exponent) {if (exponent === undefined) exponent = 2 ...etc}
+
+TECHNIQUES
+     Avoiding Repetition
+          - when finding you need the same piece of code more than once and deciding to move it into a function you need to determine how much of the code should go int the function and that the interface to the function should look like.
+          -when a weighing whether you should write a function - the answer is usually yes 
+          -they should not to be to complicated - and should do one action if possible
+          - ie. zeropadded (dont include print and include a width parameter.)
+          
+     Purity
+     - pure functions are the things that mathematicians mean when they say function (they always give the same value when given the same arguments - and do not have side effects)*** result var
+     - generally when somthing can be written as a pure funciton do it that way - but don't feel dirty if you have to write a no pure function
+     - printZeroPadded vs zeroPadded
+     
+     Recursion
+
+Chapter. 3  Data Structures: Objects and Arrays
 
 1. main point of chapter 3 - solving a program problem that invloves extracting data from text.
 2. Aunt Emily's cats problem - keep an archive of living and dead cats
@@ -48,6 +101,7 @@ Solving thhe Problem of Aunt Emily's Cats
  return new Date(numberAt(11, 4), ...}
 }
  
+
     
     
 
