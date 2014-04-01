@@ -1,3 +1,23 @@
+Chapt 1. Basic Javascript: Values Variables and Control Flow
+
+1) the street dancer on the tv show - twisting his arm saying i am not basic - in the background of a basic looking Volkswagon Golf - BASIC JAVASCRIPT
+2) Car strattling a creek that goes under the car with marbles in it. CONTROL FLOW - VARIABLES
+3) Stephen Covey standing behind a dollar sign - VALUES
+FIRST 3 WERE THE CHPT TITLE
+4) Stephen Covey - next to a Price is Right Wheel - that he spins - Numbers and Digits are on the wehel - NUMBERS - BINARY REPRESENTATION
+5)other side of wheel Operator Lady sitting on a bicycle with chalk in her right hand writing ARITHMETIC problems on the board - there is a STRING ATTACHED to the chalk with a CAT walking on it in between other strings - BINARY OPERATORS; ARITHMETIC; OPERATORS; STRING; CONCAT; STRING CONCAT
+6) on other end of string an OPERATOS IS A A UNICYCLE typing on a TYPEWRITER - UNARY OPERATORS TYPE OF & THE MINUS SIGN 
+7) GHOST costume leans into frame JUGGLING BOOLEAN OPERATORS <= etc - aims SILLY STRING down to a Ghost Laying Down modeling in an art gallery - in background a guy is at podium - BOOLEAN VALUES; BOOLEAN CONSTRUCTS; COMPARING STRINGS; EXPRESSIONS CREATE VALUES; STATMENTS CREATE CHANGE
+8) man at podium gives Bag of Marbles to a woman - who walkis into a Safety Deposit Box - locks it - Then shows Key - then walks to a larger Safe in the back of the room opens it and inside it is a Environment like a forest: VARIABLES SAVE VALUES; KEYWORDS AND RESERVED WORDS; JAVASCRIPT ENVIRONMENT is not empty
+9) Alert, Prompt, and Confirm Box shows up when the door is openend - in the back of the Environment is a Structure - ALERT PROMPT CONFIRM VALUES; PROGRMAMING STRUCTURE
+10) 1st pillar is Conditioner Bottles - 2 pillar is a residential yellow Slide - guy Digging next to Slide - Olympic Loops - right second level - left 2nd level - Big #2 - 3rd level left - guy Break Dancing with a Conditioner Bottle and a Olympic rings - 3rd level right - Guy Dating Marbles at a Restaurant Table - 4th Level Left Switch blade going into a Briefcase - right 4th level - the Captial Building with Scrolling Messages going up in front of it. 5th leve left Bunch of TypeWriters - hovering above them is A BULL and an Empty Dictionary - CONDITIONAL STATMENTS; DO WHILE LOOPS; FOR LOOPS; 2 WHITE SPACE; BREAK STATMENTS (CONDITIONAL & FOR LOOP IN IE); UPDATING VARIBALES SUCCINCTLY; SWITCH CASE ; CAPITALISATION COMMMENTS; MORE ON TYPES - NULL & UNDEFINED; DYNAMIC TYPE CHANGING DOUBLE EQUAL SIGN; TYPE CHECKING 3 EQUALS
+11) Oars hotting an & symbol - MORE ON || and &&
+
+CHAPT 2: FUNCTIONS (BIG BACKHOE)
+
+
+CHAPT 3: DATA STRUCTURES: OBJECTS AND ARRAYS (CLEAR STRUCTURED BUILDING MADE BY DOOZERS OUT OF CURLY BRACKETS & SQUARE BRACKETS )
+
 Chapt 4. Error Handling
 
 1) Kevin Bacon grabs a sac and thows it on the car object next to it. Represents OOP programming - which is chapt 6
@@ -10,12 +30,24 @@ Chapt 4. Error Handling
 
 
 
-Chapt 5 Functional Programming
-
-1) Recluse walks from backhoe with a banana in his hand and Jumps up in the air - and hits the tiles of a vertical leap jumper - with a big 4 on the top. HIGH ORDER FUNCTIONS; FOREACH FUNCTION; 
-2)Recluse walks by a Magician - who is playing the board game operation and then pulls a guy with a part out of his hat; OPERATIONS INTERFACE; PARTIAL FUNCTION.
-3)He then walks futher down - to where a woman is handing out star maps - siting on a chair. MAP FUNCTION OR ARRAY METHOD - MAP(PROCESSPARAGRAPH,RECLUSEFILE.SPLIT("\N\N"))
+Chapt 5 Functional Programming (RECLUSE IN A BACKHOE) 
+1) Reculse walks down - Looks at a Painting that Does make Sense Jumps Up to Hit a height testter like in the combine - but at the top there is a backhoe on the top and he rearranges the backhoe so the hoe is at the back - ABSTRACT; MODIFYING FUCNTIONS; HIGHER ORDER FUNCTIONS 
+2)
+2) Recluse walks from backhoe with a banana in his hand and Jumps up in the air - and hits the tiles of a vertical leap jumper - with a big 4 on the top. HIGH ORDER FUNCTIONS; FOREACH FUNCTION; 
+3)Recluse walks by a Magician - who is playing the board game operation and then pulls a guy with a part out of his hat; OPERATIONS INTERFACE; PARTIAL FUNCTION.
+4)He then walks futher down - to where a woman is handing out star maps - siting on a chair. MAP FUNCTION OR ARRAY METHOD - MAP(PROCESSPARAGRAPH,RECLUSEFILE.SPLIT("\N\N"))
 4)He takes a file and hits it with a banana - SPLIT METHOD ON RECULSE FILE -
 5) The pieces start going down a conveyor belt - guy in the background heads a ball and misses the goal - HEADER =0 
 
+CHAPT 6 Object Oriented Programming (CAR ON TOP OF SOMTHING)
 
+CHAPT 7 MODULARITY (8 X 20 CONSTRUCTION TRAILER)
+
+CHAPT 8 REGULAR EXPRESSION ( FACE WITH A FLAT MOUTH EXPRESSION)
+
+CHAPT 9 WEB PROGRMMAING: CRASH COURSE ( COMPUTER WITH A COBWEB OVER IT - BEING SMADHER BY A 2 CARS)
+
+CHAPT 10 DOCUMENT OBJECT MODULE (DOCUMENT WITH SUNGLASSES IN SPOTLIGHT FLASHBULBS GOING OFF)
+
+CHAPT 11 BROWSER EVENTS (RED CARPET - BROWSERS WLAKING DOWN THE RED CARPET)
+CHAPT 12 HTTP REQUESTS (MATERDEE AT A FRONT DESK WITH HTTP AS THE BASE)
