@@ -14,6 +14,15 @@ FIRST 3 WERE THE CHPT TITLE
 11) Oars hotting an & symbol - MORE ON || and &&
 
 CHAPT 2: FUNCTIONS (BIG BACKHOE)
+1. Backhoe - digs up a Fake Skeleton on a hook/hanger - the torso and chest is circled - ANATOMY OF FUNCTION; IE. BODY OF FUNCTION
+2. Fake Skeleton - climbs down from the Backhoe shovel and starts to Read a Dictionasy - and Adds Words to it - and Stretches the book out - flips to an Empty Page in the book and sees a big Return Word with a Blank after it ----- EXTEND VOCAB TO LANGUAGE; ADD WORDS; RETURN KEYWORD - NOTHING AFTER IT - UNDEFINED
+3. opens to another empty page - and looks over to a Line of Words (with their Definitions) - Switching Spots with each other in line - when they get to the empty page the jump in -; DEFINITION ORDER DOES NOT MATTER - IT IS SAVED TO MEMORY WHEN LOADED TO PAGE
+4. Fake Skeleton - puts  down dictionary and picks up the Yellow Pages - and looks in the Marbles section - and looks in his Belly area and around him  and sees a bunch of marbles - of the same color and some of unique colors in his tummy - LOCAL VARIABLES; GOLABAL VARAIBLES and WHAT VALUE THEY REPRESENT. 
+5. fake skeleton clses the yellow pages and looks out the windwo to a tree with a bunch of Birds Nests stasked on each other ------ NESTED SCOPE
+6. the birds nests - turn into a Stack of Pancakes - Memory sticks come out of no where and hook inot the Pancakes - the pancakes keep piling up and then they explode - detaching themselves (not into part) -----NESTED SCOPE; THE STACK; STACK IN LOCAL MEMORY; BLOWING THE STACK
+7. one of the Pancakes - flys into the mout h of the Skeleton that was llooking at the pancakes - and now he has not the Yellow pages in his hand but the Seven Habits book - he puts down the book to fold clothes. while folding clothes  he decides between 2 supreme court argumens to watch on youtube -  ---- FUNCTIONS AS VALUES; CLOSURE; P[TIONAL ARGUMENTS. 
+8. after wathcing an Argument of Supreme Court - he watches a JuJitsu instrcutor showing Techniques - the students a rolling around and avoid a reptile and keep rolling to next to a creek that all of sudden comes up where they drunk it and - keep rollowing to fake skeletons using wahc other to teach anotomy ----- TECHNIQUES; AVOID REPTITION; PURITY RECURSION
+
 
 
 CHAPT 3: DATA STRUCTURES: OBJECTS AND ARRAYS (CLEAR STRUCTURED BUILDING MADE BY DOOZERS OUT OF CURLY BRACKETS & SQUARE BRACKETS )
