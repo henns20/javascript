@@ -25,7 +25,18 @@ CHAPT 2: FUNCTIONS (BIG BACKHOE)
 
 
 
-CHAPT 3: DATA STRUCTURES: OBJECTS AND ARRAYS (CLEAR STRUCTURED BUILDING MADE BY DOOZERS OUT OF CURLY BRACKETS & SQUARE BRACKETS )
+CHAPT 3: DATA STRUCTURES: OBJECTS AND ARRAYS (CLEAR STRUCTURED BUILDING MADE BY DOOZERS OUT OF CURLY BRACKETS & SQUARE BRACKETS)
+
+-AUNT EMILY'S CATS PROGRAM - PROGRAM THAT EXTRACTS DATA FROM TEXT 
+-MAKE PLAN - 1. LOGICALLY 2. LOGICALLY WITH EXPLAINED WITH THINKING WITH PROGRAMMING CAPABILITIES/PRINCIPLES MIXED IN 
+-SPECIFICALLY - LOOK THROUGH EMAILS CHRONOOGICALLY -START WITH A SET OF NAMES SPOT; LOOK FOR EMAILS THAT START WITH BORN AND DIED;
+-PROCESS PARAGRAPHS - FIND COLON - TAKE STUFF AFTER COLON - SPLIT THIS PART INT SEPARATE NAMES BY LOOKING FOR COMMAS
+-BASIC DATA STRUCTURES - PROPERTIES - values that have other values associatied to them & OBJECT VALUES - have mutable properties; they are the one value type that can do this.
+-OBJeCTS AS SETS - a collection of values in which no value occurs more than once. 
+-MUTABLILITY - objects have values that are mutable - strings are not for example
+-OBJECTS AS A COLLECTIONS: ARRAYS - main advantage for this is there is a length property *** (this is what the book says but need more definitive understanding here - bc what about for (var prop in object) - I THINK BEST REASON - if your properties are going to be numbers that use an array.
+- ARRAY METHODS - pop and push a nd join  and uppercase
+- AUNT EMILY'S CATS - 1) loop through emails in the archive array - while looping through an individual email - 2) separate paragraphs by email.split("/n"); 3) Find relvant pargraph - being with born or died - slice method pattern.length 4) Extract catnames indexOF(":") + 2 split(",") 5)CLean up code - addToSet and removeFromSet  - then handleParagraph
 
 Chapt 4. Error Handling
 
