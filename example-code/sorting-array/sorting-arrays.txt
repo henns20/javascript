@@ -1,0 +1,10 @@
+1. Array.Prototype has a sort() method. 
+  - it allows a compare function sort([compare function])
+  - but on the surface you can't use it to sort a number array (when it goes into to double digits) bc it converts the array values into strings before they do a comparison. SO WHAT DOES THAT MEAN - well it uses the unicode version of the value to create the comparison result. ie. 80 is less than 9  and Cherries is less the apples (capitalization is lower on the unicode value scale) 
+  - so in order to use the sort function for the use of a number compare - you need to use the compare funtion. 
+  - 2 ways to do this is 
+        - arr.sort(function (a, b) { return a- b});  or function compare (a, b) { return a - b; }
+        - arr.sort(compare); 
+        - the other way is to create your own compare/sort functionality - so you can see the logic - because - the source code for the sort method is not easy to find - and when you find it it is not easy to understand 
+  
+2. The other way is to insertSort
