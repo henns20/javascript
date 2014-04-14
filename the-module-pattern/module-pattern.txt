@@ -1,0 +1,60 @@
+THE MODULE PATTERN
+1. MODULES - integral piece of any robust app architecture. separates and organizes - units of code for a project.
+2. SEVERAL OPTIONS / IMPLEMENTATIONS
+
+a.Object Literal 
+    - provides a Namespace.
+b.the Module Patterm
+    - history Richard Cornford and talked about by Crockford
+    - allows for both Public and Private Methods
+    - With this pattern only a public API is returned, keeping everytuing else within the closure private. 
+    - pattern is quite SIMILAR ro an immediately-invoked funcitonal expression (IIE) EXCEPT there is an OBJECT RETURNED rather than a function
+    - Within the Module pattern, variables or methods declared are only available inside the module itseld thanks to closure. Variables or methods defined within the returning object however are available to everyone.
+
+ie. var basketModule = (function () {
+  // privates 
+  
+  var basket = [];
+  
+  function doSomethingPrivate() {
+  //...
+  }
+  
+  function doSomethingElsePrivate() {
+  //...
+  
+  }
+  
+  // Return an objext exposed to the public 
+  
+  return {
+  
+  // Add items to our basket 
+  
+  addItem: function ( values ) {
+    basket.push(values);
+  },
+  
+  getItemCount: function () {
+    return basket.length;
+  },
+  
+  //Public alias to a private function
+  doSomething: doSomethingPrivate, 
+  
+  // Get the totoal value of items in the basket
+  
+  getTotal: function () {
+    var q = this.getItemCount(),
+        p = 0;
+        
+        while (q--) {
+        p += basket[q].price;
+        
+        }
+        
+        return p;
+  }
+  }
+
+})();
