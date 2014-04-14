@@ -1,0 +1,12 @@
+MODEL - VIEW - CONTROLLER
+- a good overall resource is 
+http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvc
+
+
+MODEL
+- MODELS manage the data for an application
+- NOT concerned with user-interface nor presentation layers
+- REPRESENT unique forms of data that applicaitonmay reuire
+- upon CHANGE or UPDATED - notify its observers (in this case Views)
+- GOOD EXAMPLE to use to explain is a PHOTO GALLERY APPLICATION
+    - a photo would merit its own MODEL as it represents a unique kind of domain-specific data. the MODEL may contain related attributes - ie. caption, image source, and additional meta-data. a specific photo would be stored in an instance of a model and a model may also be reusable. 
