@@ -53,3 +53,33 @@ var basketModule = (function () {
 
 
 })();  
+
+
+// INTERACTING WITH MODULE 
+// BASKETMODULE returns an object with a public API we can use
+
+basketModule.addItem({
+  item: "bread", 
+  price: 0.5
+});
+
+basketModule.addItem({
+  item: "butter", 
+  price: 0.3
+});
+
+basketModule.getItemCount(); // outputs 2
+
+basketball.getTotal(); // outputs 0.8
+
+//How ever the following will not work. 
+
+//Outputs:underfinged
+// This is because the basket itself is not exporsed as a part of our public API
+console.log(basketModule.basket);
+
+// This also won't work as it only exists within the scope of our basktModule closure, but no the returned public object.
+
+console.log(basket);
+
+
