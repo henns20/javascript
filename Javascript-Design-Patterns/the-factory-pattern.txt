@@ -1,0 +1,134 @@
+THE FACTORY PATTERN 
+
+1. The Factory pattern is another creational pattern concerned with then notion of creating objects.
+
+2. It differs from other patterns in its category - it doesn't strictily require us to use an instructor.
+
+3. A Factory can provide a generic interface for creating objects, where we can specify the tupe of factory object we wish to be created. 
+
+4. Does not directly use the new operator.
+
+5. Factories are particularly useful if the objext creation process is relatively complex. eg. if it strongly depends on dynamic factors or application configuration.
+
+6. Examples of this pattern can be found in UI libraries such as ExtJS wehre the methods for creating objects or components may be further subclassed.
+
+
+*/
+
+
+// traditional or as the pattern book says - Types.js ? *** update - just the name of the file that he was using for the example Constructors used begind the scenes
+
+// a constructor for defining new cars - this is used to build off of when using factories. 
+
+
+/* the following was a Constructor bexample - function Car( options ) {
+  
+  // some defaults 
+  this.doors = options.doors || 4;
+  this.state = options.state || "brand new";
+
+
+} 
+var myOptions = {
+  doors: 2,
+  state: "fair"
+  
+}; 
+var vw = new Car(myOptions);
+
+console.log(vw);
+*/
+
+
+// A FACTORY EXAMPLE 
+
+/* 
+
+// Define a skeleton vehicle factory
+  function VehicleFactory() {};
+
+// Define the prototypes and utilities for this factory
+
+// Out default vehicleClass is Car
+
+VehicleFactory.prototype.vehicleClass = Car;
+
+// Our Factory method for creating new Vehicle instances
+
+Vehicle Factoy.prototype.createVehicle = function ( options ) {
+  
+  switch(options.vehicleType) {
+    case "car":
+    this.vehicleClass = Car;
+    break;
+    case "truck":
+    this.vehicleClass = Truck;
+    break;
+    // defaults  to VehicleFactory.prtotype.vehicleClass (Car)
+  }
+  
+  return new this.vehicleClass ( options );
+}; 
+
+// Create an instance of our factory that makes cars
+
+var carFactory = new VehicleFactory();
+var myYellowCar = carFactory.createVehicle( {
+  vehicleType: "car",
+  color: "yellow",
+  doots: 6
+});
+
+// Test to conform our car was creates using the vehicleClass/prototype Car
+
+//Outputs: true
+console.log( myYellowCar instanceof Car);
+
+// Outputs: Car object of color "yellow", doors: 6 in a "brand new" state
+
+console.log(myYellowCar);
+
+// Approach #1: Modify a VehicleFactory instance to use the Truck class
+
+var movingTruck = carFactory.createVehicle({
+  vehicleType: "truck",
+  state: "like new",
+  color: "red",
+  vehicleSize: "small"
+  
+});
+
+// Test to conform our truck was created with the veckeClass/prototype Truck
+
+// Outputs: true
+console.log( movingTruck instanceof Truck );
+// Outputs: Truck object of color "red", a "like new" state
+// and a "small wheelize
+// console.log( movingTruck );
+
+// Approach #2: Subclass VehicleFactory to create a factory class that builds Trucks
+
+function TruckFactory () {
+TruckFactory.prototype = new VehicleFactory ();
+TruckFactory.prototype.vehicleClass = Truck;
+
+var truckFactory = new TruckFactory();
+var myBigTruck = truckFactory.createVehicle( {
+                  state: "omg...so bad.",
+                  colot: "pink",
+                  wheelSize: "so big" } );
+
+// Comfirms that myBigTruck was created with the prototype Truck
+// Outputs: true
+console.log( myBigTruck instanceof Truck );
+
+// Outputs: Truck object with the color "pink", wheelSize "so big"
+// and state "omg. so bad"
+console.log( myBigTruck );
+})
+
+
+}
+
+
+*/
