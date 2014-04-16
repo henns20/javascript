@@ -1,0 +1,49 @@
+Books and Chapters
+
+1. Eloquent JavaScript
+
+
+
+2. Secrets of a JavaScript Ninja
+Part 1 Preparing for Training
+  1) Enter the Ninja
+    1.1 JavaScript libraries we'll be tapping
+    1.2 Understanding the JS language
+    1.3 Cross-browser considerations
+    1.4 Current best practices
+        - testing; performance analysis
+  2) Arming Testing and Debugging
+    2.1 Debugging code
+        Logging; Breakpoints
+    2.2 Test generation
+    2.3 Testing frameworks 
+      QUnit; YUI Test; JsUnit
+    2.4 The Fundementals of a Test Suite
+      the assertion; test groups; asynchonous testing
+
+Part 2 Apprentice Training
+  3) Functions are fundamental
+    3.1 What's with the function difference?
+      Why is Javascript's function nature important?
+      Sorting with a comparator
+    3.2 Declartions
+      Scoping and functions
+    3.3 Invocations
+      From arguments to function parameters; Invocation as a function; Invocation as a method; Invocation as a constructor; Invocation with the apply() and call() methods.
+  
+  4) Wielding functions
+  5) Closing in on closures
+  6) OOP with prototypes
+  7) Wrangling Regex
+  8) Taming threads and timers
+  
+Part 3 Ninja Training 
+  9) Ninja alchemy: runtime code evaluation
+  10) With statements
+  11) Developing ross-browser strategies
+  12) Cutting thru attributes, properties, and CSS
+  
+Part 4 Master Training 
+  13) Surviving events
+  14) Manipulating the DOM
+  15) CSS selector engines 
