@@ -1,7 +1,11 @@
 THE SINGLETON PATTERN
 
-1. RESTRICTS THE INSTANTATION OF A CLASS - TO A SINGLE OBJECT
-
+1. RESTRICTS THE INSTANTATION OF A CLASS - TO A SINGLE OBJECT (kinda like a object literal does)
+2. Srcs for this documentation
+      - http://addyosmani.com/resources/essentialjsdesignpatterns/book/#singletonpatternjavascript
+      - http://www.adobe.com/devnet/html5/articles/javascript-design-patterns-pt1-singleton-composite-facade.html
+      -THIS TALKS ABOUT IT BEING BAD PRACTICE - unless - CONTEXT BASED
+      -http://joelhooks.com/blog/2013/05/01/when-is-a-singleton-not-a-singleton/
 
 var mySingleton = (function () {
       
