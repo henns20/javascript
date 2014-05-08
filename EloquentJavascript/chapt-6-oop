@@ -1,0 +1,28 @@
+/* 1. do chapters by mem - only titles and then oop - create a oop in the EJ folder of the github
+
+1. basic javascript - values; variables control flow 
+2. functions 
+3. data structures - arrays and objects
+4. error handling 
+5. functional programming 
+6. oop 
+7. modularity
+8. regex
+9. web progermmind - crash course 
+10. document object model 
+11. web browsers events 
+12. http requests 
+
+*/
+
+// creating a Dictionary - forEachIn - 
+
+function forEachIn(object, action) {
+for (var property in object) {
+if (Object.prototype.hasOwnProperty.call(object, property))
+action(property, object[property]);
+}
+
+}
+
+
