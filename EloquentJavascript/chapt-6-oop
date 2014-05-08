@@ -17,12 +17,68 @@
 
 // creating a Dictionary - forEachIn - 
 
+// this is a high order function and could be memorized with imagery.
+ 
+
 function forEachIn(object, action) {
 for (var property in object) {
 if (Object.prototype.hasOwnProperty.call(object, property))
 action(property, object[property]);
 }
-
 }
 
+Dictionary.prototype.each = function(action){
+forEachIn(this.values, action);
+};
 
+Dictionary.each(function(prop, val) {
+console.log(prop + ":" + val); 
+
+});
+
+// Specifying an interface
+
+// Defining the Terrarium 
+// the actual terrarium is is defined by an array of strings
+// this terrarum plan can be used to create a terraruim object. this object keeps track of the the shape and the content and lets the bugs inside move. It has to methods 1. toString()  2. step   
+
+// Points in Space 
+
+// points on the grid will be represented by very simple objects, based on a constructor named Point, which takes 2 args, the x- and y- coordinates of the point, and produces an object with x and y properties.
+
+// prototype of this constructor has a single method called add, which takes another point as an argument and returns a new point whose x and y are the sume  of the x and y of the two given points.
+
+funciton Pont(x, y){
+this.x = x;
+this.y = y;
+}
+
+Point.prototype.add = function (other) {
+return new Point(this.x + other.x, this.y + other.y);
+};
+
+//Representing the Grid
+
+*** Whenever you find your self about to mix data representation and problem - specific code in one data type, don't. Things will be much clearer when the two are kept separate. In this case, we need to rperesent a grid of values, so I wrote a Grid type, which supports the operations that the terrarium will need. 
+
+function Grid(width, height) {
+this.width = width;
+this.height - height;
+this.cells = new Array(width * height);
+}
+
+Grid.prototype.valueAt = function(point) {
+return this.cells[point.y * this.width + point.x] = value;
+};
+
+Grid prototype.setValueAt = function (point, value) {
+this.cells[point.y * this.width + point.x] = value;
+};
+
+Grid.prototype.isInside = function(point){
+return point.x >= 0 && point.y >= && point.x < this.width && point.y < this.height;
+};
+
+Grid.prototype.moveValue = function(from, to) {
+this.setValueAt(to)
+}
