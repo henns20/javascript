@@ -1,0 +1,61 @@
+// outline Onject Oriented chapt 6
+// one hour sprint
+// push to gitHub
+
+1. OOP became pop in 1990s
+     - pros - "some feel it is right way to organize and write programs"
+     - cons - some of the figidly onjecy-oriented ideas that were adopted (and enforced) by languages like Java probably do more harm than good.
+     
+    - regardless there are central techniwues that came out of oop
+2. OOP approach - objects are little worlds of there own and the outside world may touch them only through a limited and well defined interface - which consits of properties and methods.
+
+3. Defining Methods
+    - One way - simply attach function values to it, as in the following.
+    - using the workd this to - get access to a property of a specific
+
+4. Apply and call  apply(theobject, array of parameters) - call(the object, string of parameters.)
+    function run(from, to) {
+    
+    console.log("The" + this.adjective + " rabbit runs from" + from + " to " + to);
+    }
+    
+    run.call(whiteRabbit, a, b)
+    
+    var whiteRabbit = {
+    adjective: "White";
+    }
+
+5. Constructors
+
+- The new keyword provides a convenient way of creating new objects.  when this happens its this variable will poit at a new object
+- Functions used to create new objects like this are constructors.
+- new also does a couple of things behind the scene - 1) creates a property called constructor - which points to the function that created it - if you don not use new it points to the Objec function.
+- prototype property holds an object
+- prototype vs constructor methods - consructor methods should be used when need access to the local variables of the instance.
+see
+http://thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/
+
+-Prototype Pollution
+   - hasOwnProperty or Object.prototype.hasOwnProperty.call(object, property)); use methods to distinguishe.
+   - property Object.prototype.propertyIsEnumerable.call(object, "foo");
+-Objects as Dictionaries
+    - Dictionary constructor- can be called with or without arguments.
+        - exposes four methods: store - to add a value  undeer a given key; lookup - retureve a value; contains to text whether a key is present; and each, a higher order function, to iterate over the ditionary's content
+        
+        function Dictionaty(startValues) {
+        this.values= startValues || {};
+        }
+        
+        Dictionary.prototype.store = function(name, value) {
+            this.values[name] = value;
+        };
+        
+        Dictionary.prototype.lookup = funciton(name) {
+            return this.values[name];
+        }
+
+ var colors = new Dictionary({Grover: "blue", Elmo: "red"});
+ colors.contains("Grover");
+ colors.wach(function(name, color) {
+    print(name, " is ", color);
+ });
